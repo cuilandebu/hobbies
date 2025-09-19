@@ -1079,3 +1079,10 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+#bg {
+  background-size: cover;        /* keeps proportions but always fills */
+  background-position: center;   /* center the focus point */
+  background-repeat: no-repeat;  /* avoid tiling */
+  min-height: 100vh;             /* forces full viewport height */
+}
