@@ -1081,15 +1081,15 @@ input, select, textarea {
 		} }
 
 #bg {
-  background-size: cover;        /* keeps proportions but always fills */
-  background-position: center;   /* center the focus point */
-  background-repeat: no-repeat;  /* avoid tiling */
-  min-height: 100vh;             /* forces full viewport height */
+  background-size: cover !important;        /* keeps proportions but always fills */
+  background-position: center !important;   /* center the focus point */
+  background-repeat: no-repeat !important;  /* avoid tiling */
+  min-height: 100vh !important;             /* forces full viewport height */
 }
 
 @media (max-width: 768px) {
   #bg {
-    background-size: cover;   /* can also try "contain" if you want whole image visible */
-    background-position: top center;
+    background-size: cover !important;   /* can also try "contain" if you want whole image visible */
+    background-position: top center !important;
   }
 }
