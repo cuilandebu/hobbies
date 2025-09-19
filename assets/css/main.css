@@ -1086,3 +1086,10 @@ input, select, textarea {
   background-repeat: no-repeat;  /* avoid tiling */
   min-height: 100vh;             /* forces full viewport height */
 }
+
+@media (max-width: 768px) {
+  #bg {
+    background-size: cover;   /* can also try "contain" if you want whole image visible */
+    background-position: top center;
+  }
+}
